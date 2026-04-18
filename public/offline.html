@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oflayn - Maktab Tizimi</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .icon {
+            font-size: 64px;
+            color: #0F6E56;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #0F6E56;
+        }
+        p {
+            max-width: 400px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        button {
+            background-color: #0F6E56;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(15, 110, 86, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="icon">📶❌</div>
+    <h1>Internet yo'q</h1>
+    <p>Siz oflayn rejimdasiz. Iltimos internet ulanishingizni tekshiring va qaytadan urinib ko'ring.</p>
+    <button onclick="window.location.reload()">Qayta urinish</button>
+</body>
+</html>
